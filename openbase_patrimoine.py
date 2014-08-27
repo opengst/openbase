@@ -205,7 +205,7 @@ class equipment_lines(osv.osv):
         'oil_qtity': fields.float('oil quantity', select=1),
         'oil_price': fields.float('oil price', select=1),
         'equipment_id':fields.many2one('openstc.equipment', 'Equipment'),
-        'task_id':fields.many2one('project.task', 'Task'),
+        #'task_id':fields.many2one('project.task', 'Task'),
     }
 
 equipment_lines()
